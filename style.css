@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.time-select,
+.player-container,
+.sound-picker {
+  height: 80%;
+}
+.time-select {
+  background-color: lightblue;
+  flex: 1;
+}
+.player-container {
+  background-color: lightgreen;
+  flex: 1;
+}
+.sound-picker {
+  background-color: lightcoral;
+  flex: 1;
+}
